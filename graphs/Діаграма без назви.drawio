@@ -1,25 +1,25 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.8.4">
   <diagram name="Сторінка-1" id="uSQPeXertIpoC6isZNXC">
-    <mxGraphModel dx="2257" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2802" dy="1061" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="yQrxdBQTwNWFjZo0aZIg-2" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;čas&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;den poslední dopravy&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="130" y="850" width="130" height="30" as="geometry" />
+          <mxGeometry x="124" y="810" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yQrxdBQTwNWFjZo0aZIg-3" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;cena&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Součet cen všech dostupných v daný period prostředků, vč. nevyužitých&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="310" y="850" width="120" height="70" as="geometry" />
+          <mxGeometry x="260" y="810" width="216" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yQrxdBQTwNWFjZo0aZIg-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="yQrxdBQTwNWFjZo0aZIg-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="270" y="780" as="sourcePoint" />
-            <mxPoint x="290" y="500" as="targetPoint" />
+            <mxPoint x="264" y="740" as="sourcePoint" />
+            <mxPoint x="284" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yQrxdBQTwNWFjZo0aZIg-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="yQrxdBQTwNWFjZo0aZIg-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="270" y="780" as="sourcePoint" />
-            <mxPoint x="270" y="780" as="targetPoint" />
+            <mxPoint x="264" y="740" as="sourcePoint" />
+            <mxPoint x="264" y="740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yQrxdBQTwNWFjZo0aZIg-7" value="dopravní prostředky&lt;br&gt;&lt;div align=&quot;left&quot;&gt;- Interval from to&lt;br&gt;- # zboží&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- cena dne provozu&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -46,16 +46,16 @@
         <mxCell id="yQrxdBQTwNWFjZo0aZIg-20" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="yQrxdBQTwNWFjZo0aZIg-22">
           <mxGeometry width="170" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="yQrxdBQTwNWFjZo0aZIg-21" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font color=&quot;#ff6161&quot; style=&quot;font-size: 11px;&quot;&gt;readProblem&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;font color=&quot;#00ff11&quot;&gt;input&lt;/font&gt;:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;amp; of int[2]&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;font color=&quot;#00ff11&quot;&gt;output&lt;/font&gt;:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;exitCode 1 if error, -1 if EOF&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;ex: &lt;br&gt;&lt;/font&gt;0 6&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="yQrxdBQTwNWFjZo0aZIg-22">
+        <mxCell id="yQrxdBQTwNWFjZo0aZIg-21" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font color=&quot;#ff6161&quot; style=&quot;font-size: 11px;&quot;&gt;readProblem&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;font color=&quot;#00ff11&quot;&gt;input&lt;/font&gt;:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;amp; of From&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;amp; of # of goods&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;font color=&quot;#00ff11&quot;&gt;output&lt;/font&gt;:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;exitCode 1 if error, -1 if EOF&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;ex: &lt;br&gt;&lt;/font&gt;0 6&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="yQrxdBQTwNWFjZo0aZIg-22">
           <mxGeometry x="10" y="7.5" width="150" height="105" as="geometry" />
         </mxCell>
         <mxCell id="yQrxdBQTwNWFjZo0aZIg-23" value="&lt;div align=&quot;center&quot;&gt;&lt;font color=&quot;#ff7373&quot;&gt;Error types:&lt;/font&gt;&lt;br&gt;&lt;/div&gt; &lt;ul style=&quot;font-size: 10px;&quot;&gt;&lt;li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;chybějící složené závorky pro seznam dopravních prostředků,&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt; &lt;li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;chybějící hranaté závorky pro zadání dopravního prostředku,&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt; &lt;li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;chybějící čárka oddělující dopravní prostředky,&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt; &lt;li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;neplatná nebo chybějící čísla (intervaly, kapacita, cena),&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt; &lt;li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;počátek nebo konec intervalu je záporný,&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt; &lt;li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;počátek intervalu je větší než konec intervalu,&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt; &lt;li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;kapacita je záporná nebo nulová,&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt; &lt;li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;cena je záporná nebo nulová,&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt; &lt;li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;chybějící čárka oddělující interval/kapacitu/cenu u dopravního prostředku,&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt; &lt;li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;dopravních prostředků je více než 100000,&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt; &lt;li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;neplatné zadání řešeného problému (nečíselný nebo záporný počáteční den, nečíselný, nulový nebo záporný počet kusů zboží).&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="150" width="320" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="yQrxdBQTwNWFjZo0aZIg-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yQrxdBQTwNWFjZo0aZIg-7" target="yQrxdBQTwNWFjZo0aZIg-29">
+        <mxCell id="yQrxdBQTwNWFjZo0aZIg-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yQrxdBQTwNWFjZo0aZIg-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="690" y="450" as="sourcePoint" />
-            <mxPoint x="210" y="340" as="targetPoint" />
+            <mxPoint x="4.547473508864641e-13" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yQrxdBQTwNWFjZo0aZIg-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yQrxdBQTwNWFjZo0aZIg-20" target="yQrxdBQTwNWFjZo0aZIg-26">
@@ -64,23 +64,14 @@
             <mxPoint x="430" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yQrxdBQTwNWFjZo0aZIg-26" value="Problemy&lt;br&gt;&lt;div&gt;-From&lt;/div&gt;&lt;div&gt;- # zboží&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="yQrxdBQTwNWFjZo0aZIg-26" value="Problemy&lt;br&gt;&lt;div&gt;- From&lt;/div&gt;&lt;div&gt;- # zboží&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="710" y="195" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yQrxdBQTwNWFjZo0aZIg-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yQrxdBQTwNWFjZo0aZIg-26" target="yQrxdBQTwNWFjZo0aZIg-29">
+        <mxCell id="yQrxdBQTwNWFjZo0aZIg-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yQrxdBQTwNWFjZo0aZIg-26">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="340" as="sourcePoint" />
-            <mxPoint x="405" y="330" as="targetPoint" />
+            <mxPoint x="520" y="530" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="yQrxdBQTwNWFjZo0aZIg-30" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry y="530" width="520" height="250" as="geometry" />
-        </mxCell>
-        <mxCell id="yQrxdBQTwNWFjZo0aZIg-28" value="&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="yQrxdBQTwNWFjZo0aZIg-30">
-          <mxGeometry width="520" height="250" as="geometry" />
-        </mxCell>
-        <mxCell id="yQrxdBQTwNWFjZo0aZIg-29" value="&lt;p style=&quot;line-height: 120%;&quot;&gt;&lt;/p&gt;&lt;div style=&quot;padding-top: 0px; margin-top: 0px; margin-bottom: 240px;&quot; align=&quot;left&quot;&gt;Main function&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="yQrxdBQTwNWFjZo0aZIg-30">
-          <mxGeometry width="520" height="245" as="geometry" />
         </mxCell>
         <mxCell id="yQrxdBQTwNWFjZo0aZIg-31" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.533;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="yQrxdBQTwNWFjZo0aZIg-23" target="yQrxdBQTwNWFjZo0aZIg-20">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -92,6 +83,30 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="290" y="160" as="sourcePoint" />
             <mxPoint x="421" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yQrxdBQTwNWFjZo0aZIg-38" value="" style="rounded=0;whiteSpace=wrap;html=1;imageVerticalAlign=top;imageHorizontalAlign=left;imageAspect=1;align=right;labelPosition=left;verticalLabelPosition=top;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry y="530" width="520" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="yQrxdBQTwNWFjZo0aZIg-40" value="&lt;div&gt;Main function&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=bottom;whiteSpace=wrap;rounded=0;labelPosition=left;verticalLabelPosition=top;" vertex="1" parent="1">
+          <mxGeometry x="30" y="550" width="470" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="yQrxdBQTwNWFjZo0aZIg-44" value="&lt;div align=&quot;left&quot;&gt;&lt;ol style=&quot;padding-left: 20px;&quot;&gt;&lt;li&gt;Linked List&lt;br&gt;&lt;/li&gt;&lt;li&gt;Array of arrays&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="200" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yQrxdBQTwNWFjZo0aZIg-45" value="Key as a day&lt;br&gt;value as a linked list of int pairs, # of goods and price for current day" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="110" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yQrxdBQTwNWFjZo0aZIg-46" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.004;entryY=0.348;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yQrxdBQTwNWFjZo0aZIg-45" target="yQrxdBQTwNWFjZo0aZIg-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-40" y="360" as="sourcePoint" />
+            <mxPoint x="10" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yQrxdBQTwNWFjZo0aZIg-47" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yQrxdBQTwNWFjZo0aZIg-44" target="yQrxdBQTwNWFjZo0aZIg-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-40" y="360" as="sourcePoint" />
+            <mxPoint x="10" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
